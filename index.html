@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>LOVEA - LOVE AKTA</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+    function initialize() {
+      var mapProp = {
+        center:new google.maps.LatLng(-7.278501,112.763925),
+        zoom:17,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+      var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+      
+      var myLatlng = new google.maps.LatLng(-7.278501,112.763925);
+      var marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        title: 'Hello World!',
+        animation: google.maps.Animation.BOUNCE
+      });
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+    
+    </script>
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                </button>
+                <a class="navbar-brand" href="#page-top">LOVEA</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#header">Beranda</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#video">Video</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#pentingnya">Pentingnya Akta</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#pembuatan">Pembuatan Akta</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#daftar">Daftar</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Tentang Kami</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header style="background-color:#DB0A5B;" id="header">
+        <div class="container" >
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <div class="intro-text">
+                        <span class="name">Love Akta</span>
+                        <span class="skills">Bukti Sah mengenai Status dan Peristiwa Kelahiran Seseorang</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="success" id="video" style="background-color:#9B59B6">
+        <div class="container">
+            <div class="row">
+                <embed width="100%" height="550px"
+                src="https://www.youtube.com/embed/KQGMSddmhIo">
+            </div>
+        </div>
+    </section>
+
+    <section class="success" id="pentingnya" style="background-color:#D35400;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Pentingnya Akta</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <img src="img/Pentingnya akta.jpg" alt="Pentingnya akta" style="width:100%;height:600;">
+            </div>
+            <div class="row">
+                <div class="col-lg-12" style="text-align: justify;">
+                    <p style="margin-top:2%;">Bukti bahwa negara mengakui atas identitas seseorang yang menjadi warganya, sebagai alat dan data dasar bagi pemerintah untuk menyusun anggaran nasional dalam bidang pendidikan, kesehatan, sosial dan perlindungan anak, merupakan bukti awal kewarganegaraan dan identitas diri pertama yang dimiliki anak, menjadi bukti yang sangat kuat bagi anak untuk mendapatkan hak waris dari orangtuanya, mencegah pemalsuan umur, perkawinan di bawah umur, tindak kekerasan terhadap anak, perdagangan anak, adopsi ilegal dan eksploitasi seksual, anak secara yuridis berhak untuk mendapatkan perlindungan, kesehatan, pendidikan, pemukiman, dan hak-hak lainnya sebagai warga negara.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="success" id="pembuatan" style="background-color:#446CB3;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Pembuatan Akta</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <img src="img/fix 1.jpg" alt="Pentingnya akta" style="width:100%;height:600;">
+            </div>
+        </div>
+    </section>
+
+    <section class="success" id="daftar" style="background-color:#9A12B3;">
+        <div class="container">
+            <div class="row" style="height:500px;">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="http://lampid.surabaya.go.id/lahir/" class="btn btn-lg btn-outline col-lg-8 col-lg-offset-2" style="color:white;margin-top:200px;">
+                        <font size="500">Daftar Sekarang !</font>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Tentang Kami</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#nafi" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/member/dita.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#intan" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/member/nafi.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#dita" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/member/intan.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item" style="margin-left:18%;">
+                    <a href="#ipul" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/member/dika.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#dika" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/member/ipul.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontak" style="background-color:#049372;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Kontak</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <!-- <div id="googleMap" style="width:100%;height:400px;float:left;"></div> -->
+                </div>
+                <div class="col-md-5">
+                        <h3 style="margin-top:100px;">Informasi Lebih Lanjut : </h3>
+                        <p style="color:white;">Dinas Kependudukan dan Catatan Sipil<br>
+                        Jl. Manyar Kertoarjo 6 Surabaya<br>
+                        Telp. (031) 5911110<br>
+                        Email : dis_dukcapil@surabaya.go.id<br>
+                        Fax.   : (031) 5911110</p>
+                </div>
+                
+            </div>   
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-6">
+                        <h3>Lokasi</h3>
+                        <p>Institut Teknologi Sepuluh Nopember<br></p><p style="font-size:10pt;">Jalan Raya ITS, Campus ITS Sukolilo, Surabaya, Jawa Timur 60111</p>
+                    </div>
+                    <div class="footer-col col-md-6">
+                        <h3>PKM-M LOVEA</h3>
+                        <p>PKM-M LOVEA adalah sebuah program pengabdian kami terhadap masyarakat yang bertujuan untuk menyadarkan masyarakat tentang pentingnya akta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; PKM-M LOVEA
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- TEMPAT TENTANG KAMI PAS DI KLIK-->
+    <div class="portfolio-modal modal fade" id="dika" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
+</body>
+
+</html>
